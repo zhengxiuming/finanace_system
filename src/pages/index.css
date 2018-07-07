@@ -1,0 +1,55 @@
+
+.normal {
+  font-family: Georgia, sans-serif;
+  margin-top: 3em;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: normal;
+  letter-spacing: -1px;
+}
+
+.welcome {
+  height: 328px;
+  background: url(../assets/yay.jpg) no-repeat center 0;
+  background-size: 388px 328px;
+}
+
+.list {
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.list code {
+  background: #f7f7f7;
+}
+
+.formItem {
+  display: inline-block;
+  vertical-align: initial;
+  margin-bottom: 0;
+}
+
+.search {
+  margin: 0 12px;
+}
+
+.search_item {
+  margin-top: 5px;
+}
+
+.formOuter {
+  margin-left: 10px;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table > th {
+  padding: 8px 3px;
+}

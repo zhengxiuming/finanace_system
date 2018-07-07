@@ -1,0 +1,18 @@
+.login_content {
+  display: flex;
+  height: 100vh;
+  overflow: auto;
+  background-color: #f0f2f5;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .login_content {
+    background-image: url("../../../public/img/TVYTbAXWheQpRcWDaDMu.svg");
+    background-repeat: no-repeat;
+    background-position: center 110px;
+    background-size: 100%;
+  }
+}
