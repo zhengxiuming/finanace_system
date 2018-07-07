@@ -4,14 +4,7 @@ export default {
   publicPath: "",
   theme: './src/theme.js',
   proxy: {
-    "/Admin": {
-      "target": "http://test.linkpet.com.cn:6688",
-      "changeOrigin": true,
-      // "headers": {
-      //   "host": "test.linkpet.com.cn:6688/"
-      // },
-      "pathRewrite": {"^/Admin": "/Admin"}
-    }
+
   },
   alias: {
     theme: resolve(__dirname, './src/themes'),
